@@ -32,6 +32,7 @@ void MX_SDMMC1_SD_Init(void)
 {
 
   /* USER CODE BEGIN SDMMC1_Init 0 */
+#if 0
 
   /* USER CODE END SDMMC1_Init 0 */
 
@@ -50,6 +51,7 @@ void MX_SDMMC1_SD_Init(void)
   }
   /* USER CODE BEGIN SDMMC1_Init 2 */
 
+#endif
   /* USER CODE END SDMMC1_Init 2 */
 
 }

@@ -1,0 +1,162 @@
+[Port4]  :  USB Composite Device
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD0
+
+       ---===>Device Information<===---
+English product name: "VGN Mouse 2.4G Receiver"
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: Full (is not SuperSpeed or higher capable)
+Device Address:                    0x08
+Open Pipes:                           3
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0200
+bDeviceClass:                      0x00  -> This is an Interface Class Defined Device
+bDeviceSubClass:                   0x00
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x40 = (64) Bytes
+idVendor:                        0x3554 = Vendor ID not listed with USB.org
+idProduct:                       0xF503
+bcdDevice:                       0x0109
+iManufacturer:                     0x01
+     English (United States)  "Compx"
+iProduct:                          0x02
+     English (United States)  "VGN Mouse 2.4G Receiver"
+iSerialNumber:                     0x00
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008 = 0x08 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0011 = 0x11 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0007 = 0x07 bytes
+bInterval:                         0x01
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x0054  -> Validated
+bNumInterfaces:                    0x03
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0xA0  -> Bus Powered
+  -> Remote Wakeup
+MaxPower:                          0x31 =  98 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x01
+bInterfaceClass:                   0x03  -> HID Interface Class
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>HID Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x21
+bcdHID:                          0x0111
+bCountryCode:                      0x00
+bNumDescriptors:                   0x01
+bDescriptorType:                   0x22 (Report Descriptor)
+wDescriptorLength:               0x0039
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008 = 0x08 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x01
+bInterfaceClass:                   0x03  -> HID Interface Class
+bInterfaceSubClass:                0x00
+bInterfaceProtocol:                0x00
+iInterface:                        0x00
+
+          ===>HID Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x21
+bcdHID:                          0x0111
+bCountryCode:                      0x00
+bNumDescriptors:                   0x01
+bDescriptorType:                   0x22 (Report Descriptor)
+wDescriptorLength:               0x0096
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0011 = 0x11 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x02
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x01
+bInterfaceClass:                   0x03  -> HID Interface Class
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x02
+iInterface:                        0x00
+
+          ===>HID Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x21
+bcdHID:                          0x0111
+bCountryCode:                      0x00
+bNumDescriptors:                   0x01
+bDescriptorType:                   0x22 (Report Descriptor)
+wDescriptorLength:               0x0057
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0007 = 0x07 bytes
+bInterval:                         0x01

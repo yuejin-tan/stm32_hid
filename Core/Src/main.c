@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "eth.h"
 #include "fdcan.h"
 #include "quadspi.h"
@@ -31,6 +32,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+#include "bsp_init.h"
 
 /* USER CODE END Includes */
 
@@ -52,6 +55,12 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+
+int16_t test1 = -1;
+int32_t test2 = 2;
+uint16_t test3 = 3;
+uint32_t test4 = -4;
+float test5 = 3.14;
 
 /* USER CODE END PV */
 
@@ -107,7 +116,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_FDCAN1_Init();
+  MX_DMA_Init();
   MX_QUADSPI_Init();
   MX_RAMECC_Init();
   MX_SDMMC1_SD_Init();
@@ -115,10 +124,13 @@ int main(void)
   MX_SPI4_Init();
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
-  MX_USB_DEVICE_Init();
-  MX_USB_HOST_Init();
-  MX_ETH_Init();
+  // MX_USB_DEVICE_Init();
+  // MX_USB_HOST_Init();
+  // MX_FDCAN1_Init();
+  // MX_ETH_Init();
   /* USER CODE BEGIN 2 */
+
+  bsp_init_scd();
 
   /* USER CODE END 2 */
 

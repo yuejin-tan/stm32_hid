@@ -29,6 +29,7 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "stm32h7xx_hal.h"
 
+#include "stm32h7xx_ll_dma.h"
 #include "stm32h7xx_ll_rcc.h"
 #include "stm32h7xx_ll_crs.h"
 #include "stm32h7xx_ll_bus.h"
@@ -37,7 +38,6 @@ extern "C" {
 #include "stm32h7xx_ll_cortex.h"
 #include "stm32h7xx_ll_utils.h"
 #include "stm32h7xx_ll_pwr.h"
-#include "stm32h7xx_ll_dma.h"
 #include "stm32h7xx_ll_spi.h"
 #include "stm32h7xx_ll_usart.h"
 #include "stm32h7xx_ll_gpio.h"
@@ -86,6 +86,12 @@ void Error_Handler(void);
 #define FLASH_CS_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
+
+extern int16_t test1 ;
+extern int32_t test2 ;
+extern uint16_t test3 ;
+extern uint32_t test4 ;
+extern float test5 ;
 
 /* USER CODE END Private defines */
 

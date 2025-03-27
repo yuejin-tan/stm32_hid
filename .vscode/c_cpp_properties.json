@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/USB_DEVICE/App",
+                "${workspaceFolder}/USB_DEVICE/Target",
+                "${workspaceFolder}/USB_HOST/App",
+                "${workspaceFolder}/USB_HOST/Target",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "D:/platform/stm32/GNU_ARM/arm-none-eabi/include"
+            ],
+            "defines": [
+                "__VFP_FP__",
+                "USE_FULL_LL_DRIVER",
+                "USE_HAL_DRIVER",
+                "STM32H750xx"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "D:/platform/stm32/GNU_ARM/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
